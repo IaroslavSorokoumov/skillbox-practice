@@ -37,9 +37,14 @@ num_3 = int(input('Введите третье число: '))
 
 if num_1 > num_2:
   maximum = num_1
+  print(f'Первое число больше второго')
 else:
   maximum = num_2
+  print(f'Второе число больше первого')
 if maximum < num_3:
   maximum = num_3
+  print('Третье число больше первых двух')
+else:
+  print('Третье число не больше других')
 
 print('Наибольшее число:', maximum)
