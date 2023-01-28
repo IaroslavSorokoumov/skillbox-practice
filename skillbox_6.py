@@ -42,4 +42,4 @@ else:
 if maximum < num_3:
   maximum = num_3
 
-print('Наибольшее число:', maximum)
+print('Наибольшее число из введённых:', maximum)
