@@ -34,9 +34,9 @@
 
 low_temprt = 0
 high_temprt = 100
-temprt = int(input('Введите температуру воды: '))
+temprt = int(input('Введите новую температуру воды: '))
 
 if low_temprt <= temprt and high_temprt >= temprt:
-  print('Температура воды в нужном диапазоне')
+  print('Температура воды в рамках технологического процесса')
 else:
   print('Температура воды вышла за безопасный диапазон!')
