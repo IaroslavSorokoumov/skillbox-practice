@@ -34,7 +34,7 @@
 
 low_temprt = 0
 high_temprt = 100
-temprt = int(input('Введите температуру среды: '))
+temprt = int(input('Введите температуру: '))
 
 if low_temprt <= temprt and high_temprt >= temprt:
   print('Температура воды в нужном диапазоне')
